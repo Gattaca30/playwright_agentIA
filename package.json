@@ -1,0 +1,17 @@
+{
+  "name": "playwright-mcp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:nav-menu": "npx playwright test tests/header/navigation-menu.spec.ts",
+    "test:nav-links": "npx playwright test tests/header/navigation-links.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.5"
+  }
+}
