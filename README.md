@@ -1,13 +1,10 @@
 # playwright-agentIA
 
 End-to-end automated test suite for [Codemify](https://codemify.com), an online QA engineering training platform.
-
 This project combines **Playwright** for test automation and **Claude Code** with an AI agent to automatically generate test plan documentation to Jira and Confluence.
-
 ---
 
 ## Table of Contents
-
 1. [Prerequisites](#1-prerequisites)
 2. [Project Setup](#2-project-setup)
 3. [Running Playwright Tests](#3-running-playwright-tests)
@@ -15,29 +12,24 @@ This project combines **Playwright** for test automation and **Claude Code** wit
 5. [Atlassian MCP Configuration](#5-atlassian-mcp-configuration)
 6. [Project Structure](#6-project-structure)
 7. [Playwright Configuration](#7-playwright-configuration)
-
 ---
 
 ## 1. Prerequisites
-
 - [Node.js](https://nodejs.org/) v18 or higher
 - npm v9 or higher
 - An [Atlassian](https://www.atlassian.com/) account with access to Jira and Confluence
 - An [Anthropic](https://www.anthropic.com/) account for Claude Code
-
 ---
 
 ## 2. Project Setup
 
 ### Clone the repository
-
 ```bash
 git clone <repo-url>
 cd playwright-agentIA
 ```
 
 ### Install dependencies
-
 ```bash
 npm install
 ```
@@ -47,25 +39,21 @@ npm install
 ```bash
 npx playwright install
 ```
-
 ---
 
 ## 3. Running Playwright Tests
 
 ### All tests
-
 ```bash
 npx playwright test
 ```
 
 ### A specific test file
-
 ```bash
 npx playwright test tests/header/navigation-menu.spec.ts
 ```
 
 ### Via npm scripts
-
 ```bash
 # Navigation menu tests
 npm run test:nav-menu
@@ -75,33 +63,26 @@ npm run test:nav-links
 ```
 
 ### View the HTML report
-
 After running the tests, an HTML report is generated automatically.
 
 ```bash
 npx playwright show-report
 ```
-
 ---
 
 ## 4. Installing Claude Code
-
 Claude Code is Anthropic's official CLI. It is installed via npm.
 
 ### Linux
-
 ```bash
 npm install -g @anthropic-ai/claude-code
 ```
 
 Verify the installation:
-
 ```bash
 claude --version
 ```
-
 Launch Claude Code inside the project:
-
 ```bash
 cd playwright-agentIA
 claude
@@ -163,7 +144,6 @@ claude mcp add --transport http atlassian https://mcp.atlassian.com/v1/mcp
 3. Copy the generated token
 
 ### Configure the MCP in Claude Code
-
 Add the MCP configuration to `~/.claude/settings.json` (global) or `.claude/settings.json` at the project root (local):
 
 ```json
@@ -181,14 +161,10 @@ Add the MCP configuration to `~/.claude/settings.json` (global) or `.claude/sett
 }
 ```
 
-> Replace `your-site` with your Atlassian instance subdomain (e.g. `fifalianaangela` for `fifalianaangela.atlassian.net`).
-
 ### Verify the connection
-
 Inside Claude Code, type `/mcp` to list available servers and their connection status.
 
 ### Project MCP permissions
-
 The `.claude/settings.local.json` file defines the MCP permissions allowed for this project:
 
 ```json
@@ -203,11 +179,9 @@ The `.claude/settings.local.json` file defines the MCP permissions allowed for t
   }
 }
 ```
-
 ---
 
 ## 6. Project Structure
-
 ```
 playwright-agentIA/
 ├── .claude/
