@@ -3,7 +3,8 @@
     "allow": [
       "mcp__atlassian__getVisibleJiraProjects",
       "mcp__atlassian__createJiraIssue",
-      "mcp__atlassian__getConfluenceSpaces"
+      "mcp__atlassian__getConfluenceSpaces",
+      "mcp__atlassian__createConfluencePage"
     ]
   }
 }
