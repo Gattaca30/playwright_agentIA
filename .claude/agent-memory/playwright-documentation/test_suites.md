@@ -13,6 +13,7 @@ type: project
 | TC-1.3 | Navigation Header et Menu Mobile | Le sous-menu QA Courses s'affiche au clic | TEST-3 | https://fifalianaangela.atlassian.net/browse/TEST-3 | https://fifalianaangela.atlassian.net/wiki/spaces/GDP/pages/131075 (espace GDP, page ID 131075) | 2026-03-13 |
 | TC-1.4 | Navigation Header et Menu Mobile | Le sous-menu AI Courses s'affiche au clic | TEST-5 | https://fifalianaangela.atlassian.net/browse/TEST-5 | https://fifalianaangela.atlassian.net/wiki/spaces/GDP/pages/917506 (espace GDP, page ID 917506) | 2026-03-16 |
 | TC-2.1 | Page About Us | Vérification du chargement de la page About Us avec le titre et l'URL corrects | TEST-6 | https://fifalianaangela.atlassian.net/browse/TEST-6 | https://fifalianaangela.atlassian.net/wiki/spaces/GDP/pages/1540097 (espace GDP, page ID 1540097) | 2026-03-17 |
+| TC-2.2 | Page About Us — Navigation | Clic sur le logo accueil redirige vers la page d'accueil | TEST-7 | https://fifalianaangela.atlassian.net/browse/TEST-7 | https://fifalianaangela.atlassian.net/wiki/spaces/GDP/pages/4194305 (espace GDP, page ID 4194305) | 2026-03-26 |
 
 ## Notes
 

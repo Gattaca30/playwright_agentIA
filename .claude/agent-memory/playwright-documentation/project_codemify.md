@@ -20,6 +20,7 @@ type: project
 - **QA Courses submenu tests**: `tests/header/qa-courses-submenu.spec.ts`
 - **AI Courses submenu tests**: `tests/header/ai-courses-submenu.spec.ts`
 - **About Us page tests**: `tests/about-us/page-load.spec.ts`
+- **About Us navigation tests**: `tests/about-us/navigation.spec.ts`
 
 ## Test Plan Sections Documented
 
@@ -30,6 +31,7 @@ type: project
 | 1.3 | Le sous-menu QA Courses s'affiche au clic | TEST-3 | 2026-03-13 |
 | 1.4 | Le sous-menu AI Courses s'affiche au clic | TEST-5 | 2026-03-16 |
 | TC-2.1 | Vérification du chargement de la page About Us avec le titre et l'URL corrects | TEST-6 | 2026-03-17 |
+| TC-2.2 | Clic sur le logo accueil redirige vers la page d'accueil | TEST-7 | 2026-03-26 |
 
 ## Naming Conventions
 
